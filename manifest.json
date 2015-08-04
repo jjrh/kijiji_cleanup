@@ -1,0 +1,13 @@
+{
+  "name": "kijiji cleanup",
+  "description": "Remove annoying stuff on kijiji",
+  "version": "0.01",
+  "permissions": [
+    "activeTab"
+  ],
+    "content_scripts": [ {
+	"js": ["jquery-2.1.4.min.js","stuff.js"],
+	"matches": ["http://www.kijiji.ca/*"]
+    }],
+  "manifest_version": 2
+}
