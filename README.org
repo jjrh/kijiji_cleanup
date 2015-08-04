@@ -1,0 +1,5 @@
+* kijiji cleanup
+  - chrome extension to remove much of the extra crap that
+    distracts from browsing listings.
+  - Toggle buttons are provided to show the hidden content if it is
+    desired.
